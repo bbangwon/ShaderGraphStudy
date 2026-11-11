@@ -23,6 +23,12 @@
         },
         {
             "m_Id": "e8db3484cbe54de0b6a9fce3fa430f1f"
+        },
+        {
+            "m_Id": "faedd772b67540fd87f8831da84ec3f7"
+        },
+        {
+            "m_Id": "bd5f0917309142d3841e1b2c015758f2"
         }
     ],
     "m_Keywords": [],
@@ -30,6 +36,15 @@
     "m_CategoryData": [
         {
             "m_Id": "2cc2ad59cd3b408c834d1b8d7973f212"
+        },
+        {
+            "m_Id": "e0f531b09dd943eb90925bf3f85c9d41"
+        },
+        {
+            "m_Id": "195ae424e92941419cb626d87f203185"
+        },
+        {
+            "m_Id": "17b6ac1039c94a299dec4860be4071d3"
         }
     ],
     "m_Nodes": [
@@ -252,15 +267,24 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
-    "m_ObjectId": "2cc2ad59cd3b408c834d1b8d7973f212",
-    "m_Name": "",
+    "m_ObjectId": "17b6ac1039c94a299dec4860be4071d3",
+    "m_Name": "텍스쳐",
     "m_ChildObjectList": [
         {
-            "m_Id": "13b08b3798294a3591ec91a2a6ff5b83"
+            "m_Id": "faedd772b67540fd87f8831da84ec3f7"
         },
         {
-            "m_Id": "abee3f8b3c6e43ddb525953b73068e99"
-        },
+            "m_Id": "bd5f0917309142d3841e1b2c015758f2"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "195ae424e92941419cb626d87f203185",
+    "m_Name": "사실상 4자리 숫자",
+    "m_ChildObjectList": [
         {
             "m_Id": "ed2d3449703444b9be0628e4aa54f9af"
         },
@@ -272,11 +296,16 @@
         },
         {
             "m_Id": "9876ac2135a643608b678beaf81f40a0"
-        },
-        {
-            "m_Id": "e8db3484cbe54de0b6a9fce3fa430f1f"
         }
     ]
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "2cc2ad59cd3b408c834d1b8d7973f212",
+    "m_Name": "",
+    "m_ChildObjectList": []
 }
 
 {
@@ -550,6 +579,40 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.CubemapShaderProperty",
+    "m_ObjectId": "bd5f0917309142d3841e1b2c015758f2",
+    "m_Guid": {
+        "m_GuidSerialized": "0b550e8f-b255-4f76-9115-da1d3cd949f4"
+    },
+    "promotedFromAssetID": "",
+    "promotedFromCategoryName": "",
+    "promotedOrdering": -1,
+    "m_Name": "Cubemap",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Cubemap",
+    "m_DefaultReferenceName": "_Cubemap",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "hideConnector": false,
+    "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
+    "m_Value": {
+        "m_SerializedCubemap": "",
+        "m_Guid": ""
+    },
+    "isHDR": false,
+    "m_Modifiable": true
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "d4aa86c63dc44a1c83736048a38cacbd",
     "m_Group": {
@@ -580,6 +643,24 @@
         "m_SerializableColors": []
     },
     "m_SerializedDescriptor": "VertexDescription.Normal"
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "e0f531b09dd943eb90925bf3f85c9d41",
+    "m_Name": "한자리 숫자",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "13b08b3798294a3591ec91a2a6ff5b83"
+        },
+        {
+            "m_Id": "abee3f8b3c6e43ddb525953b73068e99"
+        },
+        {
+            "m_Id": "e8db3484cbe54de0b6a9fce3fa430f1f"
+        }
+    ]
 }
 
 {
@@ -669,5 +750,43 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Texture2DShaderProperty",
+    "m_ObjectId": "faedd772b67540fd87f8831da84ec3f7",
+    "m_Guid": {
+        "m_GuidSerialized": "c8160774-679c-4979-96ab-4de10be601cf"
+    },
+    "promotedFromAssetID": "",
+    "promotedFromCategoryName": "",
+    "promotedOrdering": -1,
+    "m_Name": "Texture2D",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Texture2D",
+    "m_DefaultReferenceName": "_Texture2D",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "hideConnector": false,
+    "m_Hidden": false,
+    "m_PerRendererData": false,
+    "m_customAttributes": [],
+    "m_Value": {
+        "m_SerializedTexture": "",
+        "m_Guid": ""
+    },
+    "isMainTexture": false,
+    "useTilingAndOffset": true,
+    "useTexelSize": true,
+    "isHDR": false,
+    "m_Modifiable": true,
+    "m_DefaultType": 0
 }
 
